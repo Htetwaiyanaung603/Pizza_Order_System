@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#pizza-image {
+    /* opacity: 0.7; */
+    transition: 0.5s;
+}
+
+#pizza-image:hover {
+    /* filter: brightness(100%); */
+    opacity: 0.9;
+}
+
+#code-lab-pizza {
+    animation: pizza 2s infinite paused;
+}
+
+@keyframes pizza {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
